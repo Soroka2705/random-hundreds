@@ -57,3 +57,25 @@ int result = MaxNum(number);
 Console.WriteLine($"Max nuber of a {number} is {result}");
 */
 
+
+/*
+bool Multiplicity(int firstnum, int secondnum)
+{
+    if(secondnum % firstnum ==0)
+    {
+        return true;
+    }
+    else
+    {
+        return false;
+    }
+}
+
+Console.WriteLine("input first number ");
+int first = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("input second number ");
+int second = Convert.ToInt32(Console.ReadLine());
+
+bool res = Multiplicity(first, second);
+Console.WriteLine(res);
+*/
