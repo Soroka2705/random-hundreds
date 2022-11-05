@@ -33,3 +33,27 @@ int num = new Random().Next(100, 1000);
 bool res = IsEven(num);
 Console.WriteLine($"number {num} is {res}");
 */
+
+/*
+int MaxNum(int randnum)
+{
+    int max = 0;
+    int ed = randnum % 10;
+    int doz = randnum / 10;
+    if(ed > doz)
+    {
+        max = ed;
+    }
+    else
+    {
+        max = doz;
+    }
+    return max;
+}
+
+int number = new Random().Next(10, 100);
+int result = MaxNum(number);
+
+Console.WriteLine($"Max nuber of a {number} is {result}");
+*/
+
